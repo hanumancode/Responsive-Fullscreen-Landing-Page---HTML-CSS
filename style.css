@@ -30,26 +30,32 @@ body {
 
 #showcase p {
     font-size: 20px;
-    padding-top: 20px;
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    /* color: #fff; */
 }
 
 #showcase .btn {
     font-size: 18px;
     text-decoration: none;
-    color: #929292;
+    background-color: #fff;
     border: 1px solid #926239;
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 20px;
+    color: #926239;
+
 }
 
 #showcase .btn:hover {
-    background: #fff;
+    background: #926239;
+    color:#fff;
 }
 
 #section1 {
     padding: 20px;
-    background: #929292;
+    background: #926239;
     color: #fff;
     text-align: center;
 }
