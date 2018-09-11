@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
+    padding: 20 20px;
 }
 
 #showcase h1 {
@@ -30,10 +30,10 @@ body {
 
 #showcase p {
     font-size: 20px;
-    margin-top: 40px;
     background: rgba(255, 255, 255, 0.8);
-    width: 90%;
     /* color: #fff; */
+    margin-top: 20px;
+
 }
 
 #showcase .btn {
