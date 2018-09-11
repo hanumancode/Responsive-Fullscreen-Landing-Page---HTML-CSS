@@ -12,14 +12,68 @@ body {
 
 #showcase {
     background-image: url(background-exodus-litecoin.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
 }
 
 #showcase h1 {
-
+    font-size: 50px;
+    line-height: 1.2;
 }
 
-.btn {
+#showcase p {
+    font-size: 20px;
+    padding-top: 20px;
+}
 
+#showcase .btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #929292;
+    border: 1px solid #926239;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#showcase .btn:hover {
+    background: #fff;
+}
+
+#section1 {
+    padding: 20px;
+    background: #929292;
+    color: #fff;
+    text-align: center;
+}
+
+#section2 {
+    padding: 20px;
+    background: #444;
+    color: #fff;
+    text-align: center;
+}
+
+#section3 {
+    display: flex;
+}
+
+#section3 div {
+    padding: 20px;
+}
+
+#section3 .box1, #section3 .box3 {
+    background: #929292;
+    color: #fff;
+}
+
+#section3 .box2 {
+    background: #d9d9d9;
 }
