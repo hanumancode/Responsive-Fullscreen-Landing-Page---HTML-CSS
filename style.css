@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url(background-exodus-litecoin.jpeg);
+    height: 100vh;
+
+}
+
+#showcase h1 {
+
+}
+
+.btn {
+
+}
